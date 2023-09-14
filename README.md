@@ -1,4 +1,4 @@
-# COMP6321_FALL_2023
+# COMP6321 FALL 2023
 Machine Learning Project (Fall 2023) using pytorch
 # Project Title
 
