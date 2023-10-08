@@ -47,10 +47,10 @@ You can install these libraries using `pip`. Make sure to install specific versi
 [Pytorch-url]: https://pytorch.org/
 [Colab]:https://colab.research.google.com/assets/colab-badge.svg
 [Colab-url]: https://colab.research.google.com/notebooks/intro.ipynb
-[Matplotlib]: https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Numpy]: https://img.shields.io/badge/Numpy-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+[Matplotlib]: https://matplotlib.org/
+[Numpy]: https://numpy.org/
 [Scipy]: https://img.shields.io/badge/Scipy-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [scikit-learn]: https://img.shields.io/badge/scikit-learn-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [PIL]: https://img.shields.io/badge/PIL-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Pickle]: https://img.shields.io/badge/Pickle-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+[Pickle]: https://docs.python.org/3/library/pickle.html
 [THOP]: https://img.shields.io/badge/THOP-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
