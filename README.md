@@ -42,24 +42,15 @@ Python version used for this project is 3.10.2 which can be downloaded and insta
 
 You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
 
-[Pandas] (Version 2.0.3) <br>
-    /tabs pip install pandas==2.0.3 <br>
-[PyTorch] (Version2.0.0)<br>
-    /tabs pip install torch==2.0.0 <br>
-[TorchVision] (Version 0.15.1 ) <br>
-    /tabs pip install torchvision==0.15.1 <br>
-[tqdm] (Version 4.66.1) <br>
-    /tabs pip install tqdm==4.66.1 <br>
-[PIL] (Version 9.5.0) <br>
-    /tabs pip install PIL==9.5.0 <br>
-[json] (Version 2.0.9) <br>
-    /tabs pip install json==2.0.9 <br>
-[SciKit Learn] (Version 1.2.2) <br>
-    /tabs pip install sklearn==1.2.2 <br>
-[NumPy] (Version 1.23.5) <br>
-    /tabs pip install numpy==1.23.5 <br>
-[MatPlotLib] (Version 3.7.2) <br>
-    /tabs pip install matplotlib==3.7.2 <br>
+[Pandas] (Version 2.0.3) ---> pip install pandas==2.0.3<br>
+[PyTorch] (Version2.0.0) ---> pip install torch==2.0.0 <br>
+[TorchVision] (Version 0.15.1 ) ---> pip install torchvision==0.15.1 <br>
+[tqdm] (Version 4.66.1) ---> pip install tqdm==4.66.1 <br>
+[PIL] (Version 9.5.0) ---> pip install PIL==9.5.0 <br>
+[json] (Version 2.0.9) ---> pip install json==2.0.9 <br>
+[SciKit Learn] (Version 1.2.2) ---> pip install sklearn==1.2.2 <br>
+[NumPy] (Version 1.23.5) ---> pip install numpy==1.23.5 <br>
+[MatPlotLib] (Version 3.7.2) ---> pip install matplotlib==3.7.2 <br>
   
 
 
