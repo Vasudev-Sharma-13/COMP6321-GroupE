@@ -15,8 +15,6 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -96,6 +94,10 @@ Variables a, b, and c can be found in the second cell of each file ( cell just b
 5.) Inside files for task 2, you would have to change the path for varaible 'model1' to point to the path you gave to save the models trained in Task 1. 
 
 Once you have changed the path variables in a jupyter notebook file, you can run it to see the results.
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
