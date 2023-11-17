@@ -43,7 +43,7 @@ Python version used for this project is 3.10.2 which can be downloaded and insta
 You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
 
   pip install pandas==2.0.3
-[PyTorch] (Version2.0.0)
+[PyTorch] (Version2.0.0)<br>
   pip install torch==2.0.0
 [TorchVision] (Version 0.15.1 )
   pip install torchvision==0.15.1
