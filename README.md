@@ -52,7 +52,28 @@ You can install the needed python libraries using `pip`. Make sure to install sp
 [SciKit Learn] (Version 1.2.2) ---> pip install sklearn==1.2.2 <br>
 [NumPy] (Version 1.23.5) ---> pip install numpy==1.23.5 <br>
 [MatPlotLib] (Version 3.7.2) ---> pip install matplotlib==3.7.2 <br>
-  
+
+To run the code, you can use one of three options - 
+### Option 1: Install Anaconda
+Installing Anaconda allows to run all Jupyter Notebook files on local computer. If you haven't installed Anaconda, go here: https://store.continuum.io/cshop/anaconda/ This will install everything that you need.
+
+### Option 2: Run on Google Colab
+Running on Google Colab without local computer setup, which requires a Google Colab account. If you haven't register Colab, go here: https://colab.research.google.com/signup
+
+### Option 3: Install jupyter notebook seperately on your system  
+Jupyter notebbok can be installed independently from anaconda using the following cmd command -
+>>> python -m pip install jupyter
+
+To run the jupter notebook, open cmd and enter the following command - 
+>>> jupyter notebook
+
+##Usage
+
+1. Download the three datasets involved using the following links :-
+   a.) Colorectal Cancer Classification - https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp
+   b.) Prostate Cancer Classification - https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp
+   c.) Animal Faces Classification - https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
