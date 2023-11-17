@@ -43,23 +43,23 @@ Python version used for this project is 3.10.2 which can be downloaded and insta
 You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
 
 [Pandas] (Version 2.0.3) <br>
-    pip install pandas==2.0.3 <br>
+    /tabs pip install pandas==2.0.3 <br>
 [PyTorch] (Version2.0.0)<br>
-    pip install torch==2.0.0 <br>
+    /tabs pip install torch==2.0.0 <br>
 [TorchVision] (Version 0.15.1 ) <br>
-    pip install torchvision==0.15.1 <br>
+    /tabs pip install torchvision==0.15.1 <br>
 [tqdm] (Version 4.66.1) <br>
-    pip install tqdm==4.66.1 <br>
+    /tabs pip install tqdm==4.66.1 <br>
 [PIL] (Version 9.5.0) <br>
-    pip install PIL==9.5.0 <br>
+    /tabs pip install PIL==9.5.0 <br>
 [json] (Version 2.0.9) <br>
-    pip install json==2.0.9 <br>
+    /tabs pip install json==2.0.9 <br>
 [SciKit Learn] (Version 1.2.2) <br>
-    pip install sklearn==1.2.2 <br>
+    /tabs pip install sklearn==1.2.2 <br>
 [NumPy] (Version 1.23.5) <br>
-    pip install numpy==1.23.5 <br>
+    /tabs pip install numpy==1.23.5 <br>
 [MatPlotLib] (Version 3.7.2) <br>
-    pip install matplotlib==3.7.2 <br>
+    /tabs pip install matplotlib==3.7.2 <br>
   
 
 
