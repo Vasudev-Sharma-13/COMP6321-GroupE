@@ -35,7 +35,8 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 ## Overview
 ## Repository Structure
 
-![image](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/assets/8848193/f81a6e7a-a5b2-4e13-997a-45317ec89bbe)
+![image](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/assets/8848193/91a97c8b-efb7-443c-9f4f-cc6dadf1b50b)
+
 
 ## Installation
 Python version used for this project is 3.10.2 which can be downloaded and installed using the installer on https://www.python.org/downloads/release/python-3102/
