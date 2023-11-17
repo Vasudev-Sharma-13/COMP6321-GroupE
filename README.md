@@ -61,6 +61,7 @@ Parent
  |   |--Task2_FeatureExtraction_Final_SVM.ipynb
  |--readme.txt
 
+![image](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/assets/8848193/f81a6e7a-a5b2-4e13-997a-45317ec89bbe)
 
 ## Installation
 
