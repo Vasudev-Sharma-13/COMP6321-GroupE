@@ -38,12 +38,21 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 ![image](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/assets/8848193/f81a6e7a-a5b2-4e13-997a-45317ec89bbe)
 
 ## Installation
-
+Python version used for this project is 3.10.2 which can be downloaded and installed using the installer on https://www.python.org/downloads/release/python-3102/
 You can install these libraries using `pip`. Make sure to install specific versions for compatibility:
 
 - [PyTorch](https://pytorch.org/) (Version X.X.X)
   ```bash
-  pip install torch==X.X.X
+  pip install pandas==2.0.3
+  pip install torch==2.0.0
+  pip install torchvision==0.15.1
+  pip install tqdm==4.66.1
+  pip install PIL==9.5.0
+  pip install json==2.0.9
+  pip install sklearn==1.2.2
+  pip install numpy==1.23.5
+  pip install matplotlib==3.7.2
+  
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
