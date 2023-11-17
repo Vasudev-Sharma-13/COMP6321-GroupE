@@ -40,7 +40,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 ## Installation
 Python version used for this project is 3.10.2 which can be downloaded and installed using the installer on https://www.python.org/downloads/release/python-3102/
 
-You can install these libraries using `pip`. Make sure to install specific versions for compatibility:
+You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
 
 - [PyTorch](https://pytorch.org/) (Version X.X.X)
   ```bash
