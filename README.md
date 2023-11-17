@@ -1,6 +1,6 @@
-# COMP6321 FALL 2023
+# COMP6321 FALL 2023 Course Project
 Machine Learning Project (Fall 2023) using pytorch
-# Project Title
+# Feature Extraction through CNN model-training and Transfer Learning for Classification using SVM, KNN and 
 
 This github repository is the Course Project Submission for Fall 2023 COMP 6321 – Machine Learning course. 
 
