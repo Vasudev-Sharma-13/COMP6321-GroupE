@@ -27,7 +27,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * ![Matplotlib][Matplotlib-img]
 * ![NumPy][Numpy-img]
 * ![SciPy][Scipy-img]
-* [![scikit-learn][scikit-learn-img]](scikitLearn-url)
+* [![scikit-learn][scikit-learn-img]][scikitLearn-url]
 * ![PIL][PIL-img]
 * ![Pickle][Pickle-img]
 * ![THOP][THOP-img]
@@ -132,7 +132,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Matplotlib-img]: https://img.shields.io/badge/Matplotlib-v3.0-blue
 [Numpy-img]: https://img.shields.io/badge/NumPy-1.16-yellow
 [Scipy-img]: https://img.shields.io/badge/SciPy-1.2-green
-[scikit-learn-img]: https://img.shields.io/badge/scikit-learn%2B-green
+[scikit-learn-img]: https://img.shields.io/badge/scikit--learn-0.21-green
 [scikitLearn-url]: https://scikit-learn.org/stable/
 [PIL-img]: https://img.shields.io/badge/PIL-6.0-orange
 [Pickle-img]: https://img.shields.io/badge/Pickle-4.0-lightgrey
