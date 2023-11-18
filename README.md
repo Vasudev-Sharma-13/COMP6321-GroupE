@@ -54,6 +54,17 @@ You can install the needed python libraries using `pip`. Make sure to install sp
 [NumPy] (Version 1.23.5) ---> pip install numpy==1.23.5 <br>
 [MatPlotLib] (Version 3.7.2) ---> pip install matplotlib==3.7.2 <br>
 
+```bash
+pip install pandas==2.0.3
+pip install torch==2.0.0
+pip install torchvision==0.15.1
+pip install tqdm==4.66.1
+pip install Pillow==9.5.0
+pip install json==2.0.9
+pip install scikit-learn==1.2.2
+pip install numpy==1.23.5
+pip install matplotlib==3.7.2
+```
 To run the code, you can use one of three options - 
 ### Option 1: Install Anaconda
 Installing Anaconda allows to run all Jupyter Notebook files on local computer. If you haven't installed Anaconda, go here: https://store.continuum.io/cshop/anaconda/ This will install everything that you need.
