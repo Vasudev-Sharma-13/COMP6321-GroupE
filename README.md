@@ -67,33 +67,51 @@ To run the jupter notebook, open cmd and enter the following command -
 
 ## Usage
 
-1. Download the three datasets involved using the following links :- <br>
-   a.) Colorectal Cancer Classification - https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp <br>
-   b.) Prostate Cancer Classification - https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp <br>
-   c.) Animal Faces Classification - https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp <br>
+# Dataset Download Links
 
-2. To run task 1 ipynb files, first change the following variables in each of the ipynb files inside folder Task1 :- <br>
-   a.) path --> give the path of the folder where you downloaded the Colorectal Cancer dataset <br>
-   b.) saveFilePath --> path where you want to save the hyperparameters. i.e give path for the HyperParameter.pkl pickle file ( note - give the path along with the file name ) <br>
-   c.) saveModelPath --> path where you want to save the trained ResNet18 model <br>
-   d.) imageInputChange path of the file in the last code cell of each file ( Cell titled Model FLOPS ) <br>
+- **Colorectal Cancer Classification**: [Download Link](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- **Prostate Cancer Classification**: [Download Link](https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- **Animal Faces Classification**: [Download Link](https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
 
-Variables a, b, and c can be found in the second cell of each file ( cell just below the heading - Setting Path ), in the 12th code cell ( under heading - Loading the loss,training accuracy,validation accuracy in a file ) and in the next cell ( 13th cell titled 'Saving the Models' ). Please note that you may give a different pickle save file path in each of the notebooks to get a different file for hyperparameters for all the four scenarios, but it is not a requirement.
+# Task 1 Instructions
 
-3. For Task 2 - In each ipynb file inside subfolders Task2_FeatureExtraction_KNN, Task2_FeatureExtraction_SVM and the file Task2_FeatureExtraction.ipynb in the Task2 folder, you will have to change the following variables - <br>
-   a.) 'path' to point to the folder where you downloaded the Prostate Cancer Dataset in the 3rd code cell of each ipynb file ( cell titled 'Setting path' ) in Task2_FeatureExtraction_D2_KNN/SVM.ipynb and Task2_FeatureExtraction_D2_TL_KNN/SVM.ipynb. IN the other two files, make 'path' variable point to Animal Faces dataset. <br>
-   b.) 'path1' to point to the folder where you downloaded the Animal Face Dataset in the 17th code cell ( titled 'Dataset-3 Path' ) -- ( only in Task2_FeatureExtraction.ipynb ) <br>
-   c.) imageInput to point to an image file inside the Colorectal Cancer dataset ( ( only in Task2_FeatureExtraction.ipynb ) <br>
+To run Task 1 Jupyter Notebook files, follow these steps:
 
-4. For the rest of the files in Task 2, change following variables - <br>
-   a.) pcancer_path ---> points to the folder where Prostate Cancer Dataset has been downloaded <br>
-   b.) ccancer_path ---> points to the folder where Colorectal Cancer Dataset has been downloaded <br>
-   c.) afaces_path ---> points to the folder where Animal Faces Dataset has been downloaded <br>
-   d.) imageInput ---> points to an image in Colorectal Cancer dataset <br>
+1. Open each notebook in the Task1 folder.
+2. Update the following variables in each notebook:
 
-5.) Inside files for task 2, you would have to change the path for varaible 'model1' to point to the path you gave to save the models trained in Task 1. <br>
+   a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
+   b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
+   c. `saveModelPath`: Path to save the trained ResNet18 model.
+   d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
 
-Once you have changed the path variables in a jupyter notebook file, you can run it to see the results.
+   Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
+
+3. Save the changes and run the notebooks.
+
+# Task 2 Instructions
+
+For Task 2, update variables in each Jupyter Notebook as follows:
+
+1. In `Task2_FeatureExtraction_KNN` and `Task2_FeatureExtraction_SVM`:
+
+   a. `path`: Point to the folder where you downloaded the Prostate Cancer Dataset in the 3rd code cell.
+   b. `path1`: Point to the folder where you downloaded the Animal Face Dataset in the 17th code cell.
+   c. `imageInput`: Point to an image file inside the Colorectal Cancer dataset.
+
+2. In other Task 2 files:
+
+   a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
+   b. `ccancer_path`: Points to the folder where Colorectal Cancer Dataset is downloaded.
+   c. `afaces_path`: Points to the folder where Animal Faces Dataset is downloaded.
+   d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
+
+3. Inside Task 2 files, change the path for the variable `model1` to point to the path where you saved the models trained in Task 1.
+
+4. Save the changes and run the notebooks.
+
+Feel free to reach out if you encounter any issues or have questions!
+
 
 ## License
 
