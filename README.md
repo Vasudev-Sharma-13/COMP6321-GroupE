@@ -19,16 +19,19 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 
 
 ### Built With
-* [![Python][Python]][Python-url]
-* [![Pytorch][Pytorch]][Pytorch-url]
-* [![Colab][Colab]][Colab-url]
-* ![Matplotlib][Matplotlib]
-* ![Numpy][Numpy]
-* ![Scipy][Scipy]
-* ![scikit-learn][scikit-learn]
-* ![PIL][PIL]
-* ![Pickle][Pickle]
-* ![THOP][THOP]
+
+
+* [![Python][Python-img]][Python-url]
+* [![PyTorch][Pytorch-img]][Pytorch-url]
+* [![Colab][Colab-img]][Colab-url]
+* ![Matplotlib][Matplotlib-img]
+* ![NumPy][Numpy-img]
+* ![SciPy][Scipy-img]
+* ![scikit-learn][scikit-learn-img]
+* ![PIL][PIL-img]
+* ![Pickle][Pickle-img]
+* ![THOP][THOP-img]
+
 
 ## Overview
 ## Repository Structure
@@ -119,16 +122,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Python]: https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white
+
+[Python-img]: https://img.shields.io/badge/Python-3.6%2B-blue
 [Python-url]: https://www.python.org/
-[Pytorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
+[Pytorch-img]: https://img.shields.io/badge/PyTorch-1.0%2B-orange
 [Pytorch-url]: https://pytorch.org/
-[Colab]:https://colab.research.google.com/assets/colab-badge.svg
-[Colab-url]: https://colab.research.google.com/notebooks/intro.ipynb
-[Matplotlib]: https://matplotlib.org/
-[Numpy]: https://numpy.org/
-[Scipy]: https://img.shields.io/badge/Scipy-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[scikit-learn]: https://img.shields.io/badge/scikit-learn-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[PIL]: https://img.shields.io/badge/PIL-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Pickle]: https://docs.python.org/3/library/pickle.html
-[THOP]: https://img.shields.io/badge/THOP-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+[Colab-img]: https://img.shields.io/badge/Colab-Notebook-yellow
+[Colab-url]: https://colab.research.google.com/
+[Matplotlib-img]: https://img.shields.io/badge/Matplotlib-v3.0-blue
+[Numpy-img]: https://img.shields.io/badge/NumPy-1.16-yellow
+[Scipy-img]: https://img.shields.io/badge/SciPy-1.2-green
+[scikit-learn-img]: https://img.shields.io/badge/scikit--learn-0.21-red
+[PIL-img]: https://img.shields.io/badge/PIL-6.0-orange
+[Pickle-img]: https://img.shields.io/badge/Pickle-4.0-lightgrey
+[THOP-img]: https://img.shields.io/badge/THOP-0.0.31-blue
