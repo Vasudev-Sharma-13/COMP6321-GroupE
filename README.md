@@ -28,7 +28,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * ![NumPy][Numpy-img]
 * ![SciPy][Scipy-img]
 * [![scikit-learn][scikit-learn-img]][scikitLearn-url]
-* ![PIL][PIL-img]
+* [![PIL][PIL-img]][PIL-url]
 * ![Pickle][Pickle-img]
 * ![THOP][THOP-img]
 
@@ -135,5 +135,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [scikit-learn-img]: https://img.shields.io/badge/scikit--learn-0.21-green
 [scikitLearn-url]: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/install.html)
 [PIL-img]: https://img.shields.io/badge/PIL-6.0-orange
+[PIL-url]: [https://pillow.readthedocs.io/en/stable/installation.html](https://pillow.readthedocs.io/en/stable/)
 [Pickle-img]: https://img.shields.io/badge/Pickle-4.0-lightgrey
 [THOP-img]: https://img.shields.io/badge/THOP-0.0.31-blue
