@@ -27,7 +27,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * ![Matplotlib][Matplotlib-img]
 * ![NumPy][Numpy-img]
 * ![SciPy][Scipy-img]
-* [![scikit-learn][scikit-learn-img]][scikitLearn-url]
+* [![scikit-learn][scikit-learn-img]](scikitLearn-url)
 * ![PIL][PIL-img]
 * ![Pickle][Pickle-img]
 * ![THOP][THOP-img]
