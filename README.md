@@ -132,7 +132,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Matplotlib-img]: https://img.shields.io/badge/Matplotlib-v3.0-blue
 [Numpy-img]: https://img.shields.io/badge/NumPy-1.16-yellow
 [Scipy-img]: https://img.shields.io/badge/SciPy-1.2-green
-[scikit-learn-img]: https://img.shields.io/badge/Python-3.6%2B-green
+[scikit-learn-img]: https://img.shields.io/badge/scikit-learn%2B-green
 [scikitLearn-url]: https://scikit-learn.org/stable/
 [PIL-img]: https://img.shields.io/badge/PIL-6.0-orange
 [Pickle-img]: https://img.shields.io/badge/Pickle-4.0-lightgrey
