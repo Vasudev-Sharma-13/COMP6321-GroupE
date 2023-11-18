@@ -25,7 +25,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * [![PyTorch][Pytorch-img]][Pytorch-url]
 * [![Colab][Colab-img]][Colab-url]
 * [![Matplotlib][Matplotlib-img]](https://matplotlib.org/stable/users/installing/index.html)
-* ![NumPy][Numpy-img]
+* [![NumPy][Numpy-img]](https://numpy.org/install/)
 * ![SciPy][Scipy-img]
 * [![scikit-learn][scikit-learn-img]][scikitLearn-url]
 * [![PIL](https://img.shields.io/badge/PIL-6.0-orange)](https://pillow.readthedocs.io/en/stable/installation.html)
