@@ -133,7 +133,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Numpy-img]: https://img.shields.io/badge/NumPy-1.16-yellow
 [Scipy-img]: https://img.shields.io/badge/SciPy-1.2-green
 [scikitLearn-url]: https://scikit-learn.org/stable/
-[scikit-learn-img]: https://img.shields.io/badge/Python-3.6%2B-blue
+[scikit-learn-img]: https://img.shields.io/badge/Python-3.6%2B-green
 [PIL-img]: https://img.shields.io/badge/PIL-6.0-orange
 [Pickle-img]: https://img.shields.io/badge/Pickle-4.0-lightgrey
 [THOP-img]: https://img.shields.io/badge/THOP-0.0.31-blue
