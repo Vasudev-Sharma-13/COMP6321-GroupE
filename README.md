@@ -29,6 +29,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * ![SciPy][Scipy-img]
 * [![scikit-learn][scikit-learn-img]][scikitLearn-url]
 * [![PIL][PIL-img]][PIL-url]
+* [![PIL](https://img.shields.io/badge/PIL-6.0-orange)](https://pillow.readthedocs.io/en/stable/installation.html)
 * ![Pickle][Pickle-img]
 * ![THOP][THOP-img]
 
