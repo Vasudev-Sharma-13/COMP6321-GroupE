@@ -85,13 +85,16 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 2. Update the following variables in each notebook:
 
    a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
+   
    b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
+
    c. `saveModelPath`: Path to save the trained ResNet18 model.
+
    d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
 
    Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
 
-3. Save the changes and run the notebooks.
+4. Save the changes and run the notebooks.
 
 # Task 2 Instructions
 
@@ -100,19 +103,24 @@ For Task 2, update variables in each Jupyter Notebook as follows:
 1. In `Task2_FeatureExtraction_KNN` and `Task2_FeatureExtraction_SVM`:
 
    a. `path`: Point to the folder where you downloaded the Prostate Cancer Dataset in the 3rd code cell.
+
    b. `path1`: Point to the folder where you downloaded the Animal Face Dataset in the 17th code cell.
+
    c. `imageInput`: Point to an image file inside the Colorectal Cancer dataset.
 
-2. In other Task 2 files:
+3. In other Task 2 files:
 
    a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
+
    b. `ccancer_path`: Points to the folder where Colorectal Cancer Dataset is downloaded.
+
    c. `afaces_path`: Points to the folder where Animal Faces Dataset is downloaded.
+
    d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
 
-3. Inside Task 2 files, change the path for the variable `model1` to point to the path where you saved the models trained in Task 1.
+5. Inside Task 2 files, change the path for the variable `model1` to point to the path where you saved the models trained in Task 1.
 
-4. Save the changes and run the notebooks.
+6. Save the changes and run the notebooks.
 
 Feel free to reach out if you encounter any issues or have questions!
 
