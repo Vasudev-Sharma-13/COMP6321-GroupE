@@ -126,20 +126,21 @@ To run Task 1 Jupyter Notebook files, follow these steps:
       ```
 
 5. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
-```python
-#change input dimensions of the image fed to the CNN
-inputDimension=(256,256)
-#Setting different batch sizes
-batch_sizes=[128,64,32]
-#Setting different learning rates
-learning_rates=[0.00001,0.00005,0.0001,0.0005,0.001,.005,0.01,0.05]
-#Setting the number of epochs
-epochs=10
-#setting the loss function
-criterion=nn.CrossEntropyLoss()
-```
 
-6. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
+    ```python
+   #change input dimensions of the image fed to the CNN
+   inputDimension=(256,256)
+   #Setting different batch sizes
+   batch_sizes=[128,64,32]
+   #Setting different learning rates
+   learning_rates=[0.00001,0.00005,0.0001,0.0005,0.001,.005,0.01,0.05]
+   #Setting the number of epochs
+   epochs=10
+   #setting the loss function
+   criterion=nn.CrossEntropyLoss()
+   ```
+
+6. Run notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
 
 
 # Task 2 Instructions
