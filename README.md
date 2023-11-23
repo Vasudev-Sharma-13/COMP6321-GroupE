@@ -117,15 +117,17 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 4. Save the changes and run the notebooks.
 
 1. Download the dataset from [here](https://drive.google.com/file/d/1XIygsaV67Lhu5jXemZUyXucTHa455O01/view?usp=share_link)
+
 2. There are four files for ResNet18 for solving Task 1 as follows
 
-   a. Task1.ipynb(for scratch model called CRC-Enc with grid search),
+   1. **Task1.ipynb**: Implementation of the scratch model called CRC-Enc with grid search.
 
-   b. Task1_LossFunction_Tuning.ipynb(CRC-Enc with NLLLoss tuning),
+   2. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning.
 
-   c. Task1_TransferLearning.ipynb(Model with Image  net weights called Imag-Enc) 
+   3. **Task1_TransferLearning.ipynb**: Model using ImageNet weights, referred to as Imag-Enc.
 
-   d. Task1_TransferLearning_NLLLoss.ipynb(Imag-Enc with NLLLoss as loss function tunning).Depending upon the need download the desired file(s).
+   4. **Task1_TransferLearning_NLLLoss.ipynb**: Imag-Enc with NLLLoss as the loss function tuning.
+
 
 4. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
    
@@ -142,7 +144,7 @@ epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
-5. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective AlexNet notebooks explain each cell and functioning.
+5. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
 
 
 # Task 2 Instructions
