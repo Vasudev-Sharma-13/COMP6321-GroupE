@@ -81,7 +81,16 @@ To run the jupter notebook, open cmd and enter the following command -
 
 To run Task 1 Jupyter Notebook files, follow these steps:
 
-1. Open each notebook in the Task1 folder.
+1. There are four files for ResNet18 for solving Task 1 as follows
+
+   a. **Task1.ipynb**: Implementation of the scratch model called CRC-Enc with grid search.
+
+   b. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning.
+
+   c. **Task1_TransferLearning.ipynb**: Model using ImageNet weights, referred to as Imag-Enc.
+
+   d. **Task1_TransferLearning_NLLLoss.ipynb**: Imag-Enc with NLLLoss as the loss function tuning.
+
 2. Update the following variables in each notebook:
 
    a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
@@ -114,19 +123,9 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
    Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
 
-4. Save the changes and run the notebooks.
 
-1. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here] 
 
-2. There are four files for ResNet18 for solving Task 1 as follows
-
-   1. **Task1.ipynb**: Implementation of the scratch model called CRC-Enc with grid search.
-
-   2. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning.
-
-   3. **Task1_TransferLearning.ipynb**: Model using ImageNet weights, referred to as Imag-Enc.
-
-   4. **Task1_TransferLearning_NLLLoss.ipynb**: Imag-Enc with NLLLoss as the loss function tuning.
+3. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here] 
 
 
 4. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
@@ -144,7 +143,7 @@ epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
-8. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
+6. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
 
 
 # Task 2 Instructions
