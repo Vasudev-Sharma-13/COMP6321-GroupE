@@ -40,7 +40,7 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 
 
 ## Installation
-Python version used for this project is 3.10.2 which can be downloaded and installed using the installer on https://www.python.org/downloads/release/python-3102/
+Python version used for this project is 3.10.2 which can be downloaded and installed using the [installer](https://www.python.org/downloads/release/python-3102/)
 
 You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
 
@@ -85,51 +85,46 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
    a. **Task1.ipynb**: Implementation of the scratch model called CRC-Enc with grid search.
 
-   b. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning.
+   b. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning for tuning purposes.
 
    c. **Task1_TransferLearning.ipynb**: Model using ImageNet weights, referred to as Imag-Enc.
 
-   d. **Task1_TransferLearning_NLLLoss.ipynb**: Imag-Enc with NLLLoss as the loss function tuning.
+   d. **Task1_TransferLearning_NLLLoss.ipynb**: Imag-Enc with NLLLoss as the loss function for tuning purposes.
 
-2. Update the following variables in each notebook:
+2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-   a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
+3. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here] 
+   
+4. Update the following variables in the jupyter notebook:
+
+   a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset (under section "Setting Path").
    
       ```python
       # give path of the input dataset folder
       path="C:/Users/vshar/Downloads/Dataset 1/Dataset 1/Colorectal Cancer"
       ```
 
-   b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
+   b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension)(under section "Setting Path").
 
       ```python 
       # give path to save the plot results(Example training vs epoch,loss vs steps,etc)
       saveFilePath="C:/Users/vshar/Documents/hyperparameters.pkl"
       ```
 
-   c. `saveModelPath`: Path to save the trained ResNet18 model.
+   c. `saveModelPath`: Path to save the trained ResNet18 model(under section "Setting Path").
 
       ```python
       # give path to save the trained model
       saveModelPath="C:/Users/vshar/Documents"
       ```
 
-   d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
+   d. `imageInputChange`: Path of the file in the last code cell of each file (under section "Model FLOPS").
 
       ```python
       # give path to save the trained model
       imageInputChange="/kaggle/input/"
       ```
 
-   Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
-
-
-
-3. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here] 
-
-
-4. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
-   
 5. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
 ```python
 #change input dimensions of the image fed to the CNN
@@ -143,6 +138,7 @@ epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
+
 6. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
 
 
