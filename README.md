@@ -57,10 +57,10 @@ pip install matplotlib==3.7.2
 ```
 To run the code, you can use one of three options - 
 ### Option 1: Install Anaconda
-Installing Anaconda allows to run all Jupyter Notebook files on local computer. If you haven't installed Anaconda, go here: https://store.continuum.io/cshop/anaconda/ This will install everything that you need.
+Installing Anaconda allows to run all Jupyter Notebook files on local computer. If you haven't installed Anaconda, go [here](https://store.continuum.io/cshop/anaconda/) This will install everything that you need.
 
 ### Option 2: Run on Google Colab
-Running on Google Colab without local computer setup, which requires a Google Colab account. If you haven't register Colab, go here: https://colab.research.google.com/signup
+Running on Google Colab without local computer setup, which requires a Google Colab account. If you haven't register Colab, go [here](https://colab.research.google.com/signup)
 
 ### Option 3: Install jupyter notebook seperately on your system  
 Jupyter notebbok can be installed independently from anaconda using the following cmd command -
