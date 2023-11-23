@@ -144,7 +144,7 @@ epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
-5. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
+8. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
 
 
 # Task 2 Instructions
