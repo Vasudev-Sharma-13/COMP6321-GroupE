@@ -73,9 +73,9 @@ To run the jupter notebook, open cmd and enter the following command -
 
 # Dataset Download Links
 
-- [Colorectal Cancer Classification] (https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
-- [Prostate Cancer Classification] (https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
-- [Animal Faces Classification] (https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- [Colorectal Cancer Classification](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- [Prostate Cancer Classification](https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- [Animal Faces Classification](https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
 
 # Task 1 Instructions
 
@@ -108,9 +108,9 @@ To run Task 1 Jupyter Notebook files, follow these steps:
    d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
 
       ```python
-         # give path to save the trained model
-         imageInputChange="/kaggle/input/"
-         ```
+      # give path to save the trained model
+      imageInputChange="/kaggle/input/"
+      ```
 
    Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
 
