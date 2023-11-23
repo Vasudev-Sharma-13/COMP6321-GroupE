@@ -85,13 +85,25 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 2. Update the following variables in each notebook:
 
    a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
-   
+         ```python
+         # give path of the input dataset folder
+         path="/kaggle/input/dataset-10n/dataset-10N"
+         ```
    b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
-
+         ```python 
+         # give path to save the plot results(Example training vs epoch,loss vs steps,etc)
+         saveFilePath="/kaggle/input/hyperparameters.pkl"
+         ```
    c. `saveModelPath`: Path to save the trained ResNet18 model.
-
+         ```python
+         # give path to save the trained model
+         saveModelPath="/kaggle/input/"
+         ```
    d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
-
+         ```python
+         # give path to save the trained model
+         imageInputChange="/kaggle/input/"
+         ```
    Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
 
 4. Save the changes and run the notebooks.
@@ -119,26 +131,12 @@ batch_sizes=[32]
 #Setting different learning rates
 learning_rates=[0.0001,0.0005,0.001,0.01]
 #Setting the number of epochs
-epochs=15
+epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
 6. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective AlexNet notebooks explain each cell and functioning.
-#### ResNet18
-1. Download the dataset from [here](https://drive.google.com/drive/folders/1x8phqxuxbmLUm50_3UdpfEYvrkIVEjZT?usp=share_link)
-2. Depend on running with local computer or Google Colab, change the dataset path in this code section inside each ResNet .ipynb files
-```python
-# Other constants
-model_save_name = 'resnet_3_categories_model.pth'
-statistic_save_name = 'resnet_3_categories_statistic.pkl'
-statistic_path = F"/content/drive/My Drive/comp6721-project/{statistic_save_name}"
-model_path = F"/content/drive/My Drive/comp6721-project/{model_save_name}" 
 
-ROOT_PATH = '/content/drive/MyDrive/comp6721-project/datasets/dataset-3/'
-training_path = f'{ROOT_PATH}/train'
-validation_path = f'{ROOT_PATH}/val'
-evaluation_path = f'{ROOT_PATH}/test'
-```
 
 # Task 2 Instructions
 
