@@ -88,21 +88,21 @@ To run Task 1 Jupyter Notebook files, follow these steps:
    
       ```python
       # give path of the input dataset folder
-      path="/kaggle/input/dataset-10n/dataset-10N"
+      path="C:/Users/vshar/Downloads/Dataset 1/Dataset 1/Colorectal Cancer"
       ```
 
    b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
 
       ```python 
       # give path to save the plot results(Example training vs epoch,loss vs steps,etc)
-      saveFilePath="/kaggle/input/hyperparameters.pkl"
+      saveFilePath="C:/Users/vshar/Documents/hyperparameters.pkl"
       ```
 
    c. `saveModelPath`: Path to save the trained ResNet18 model.
 
       ```python
       # give path to save the trained model
-      saveModelPath="/kaggle/input/"
+      saveModelPath="C:/Users/vshar/Documents"
       ```
 
    d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
@@ -117,33 +117,24 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 4. Save the changes and run the notebooks.
 
 1. Download the dataset from [here](https://drive.google.com/file/d/1XIygsaV67Lhu5jXemZUyXucTHa455O01/view?usp=share_link)
-2. There are three files for Alexnet as follows COMP6721_AlexNet_Dataset10.ipynb(for Fast Food Dataset),
-COMP6721_AlexNet_Dataset30.ipynb(Food-101 Dataset),COMP6721_AlexNet_Dataset3.ipynb(for Food-11 dataset).Depending upon the need
-download the desired file(s).
-3. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension. 
-4. Change the following variables under the "Dataset images before and after Preprocessing" subsection in the notebook:-
-```python
-# give path of the input dataset folder
-path="/kaggle/input/dataset-10n/dataset-10N"
-# give path to save the plot results(Example training vs epoch,loss vs steps,etc)
-saveFilePath="/kaggle/input/hyperparameters.pkl"
-# give path to save the trained model
-saveModelPath="/kaggle/input/"
-```
-5. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
+2. There are four files for Alexnet as follows Task1.ipynb(for scratch model called CRC-Enc with grid search),
+Task1_LossFunction_Tuning.ipynb(CRC-Enc with NLLLoss tuning),Task1_TransferLearning.ipynb(Model with Image  net weights called Imag-Enc) and Task1_TransferLearning_NLLLoss.ipynb(Imag-Enc with NLLLoss as loss function tunning).Depending upon the need download the desired file(s).
+3. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
+   
+4. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
 ```python
 #change input dimensions of the image fed to the CNN
 inputDimension=(256,256)
 #Setting different batch sizes
-batch_sizes=[32]
+batch_sizes=[128,64,32]
 #Setting different learning rates
-learning_rates=[0.0001,0.0005,0.001,0.01]
+learning_rates=[0.00001,0.00005,0.0001,0.0005,0.001,.005,0.01,0.05]
 #Setting the number of epochs
 epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
 ```
-6. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective AlexNet notebooks explain each cell and functioning.
+5. Run Jupyter Notebook, and see the results. The subheadings and comments in the respective AlexNet notebooks explain each cell and functioning.
 
 
 # Task 2 Instructions
