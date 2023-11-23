@@ -83,7 +83,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 1. There are four files for ResNet18 for solving Task 1 as follows
 
-   a. **Task1.ipynb**: Implementation of the scratch model called CRC-Enc with grid search.
+   a. **[Task1.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task1/Task1.ipynb)**: Implementation of the scratch model called CRC-Enc with grid search.
 
    b. **Task1_LossFunction_Tuning.ipynb**: CRC-Enc with NLLLoss tuning for tuning purposes.
 
