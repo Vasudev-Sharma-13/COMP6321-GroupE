@@ -117,11 +117,19 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 4. Save the changes and run the notebooks.
 
 1. Download the dataset from [here](https://drive.google.com/file/d/1XIygsaV67Lhu5jXemZUyXucTHa455O01/view?usp=share_link)
-2. There are four files for Alexnet as follows Task1.ipynb(for scratch model called CRC-Enc with grid search),
-Task1_LossFunction_Tuning.ipynb(CRC-Enc with NLLLoss tuning),Task1_TransferLearning.ipynb(Model with Image  net weights called Imag-Enc) and Task1_TransferLearning_NLLLoss.ipynb(Imag-Enc with NLLLoss as loss function tunning).Depending upon the need download the desired file(s).
-3. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
+2. There are four files for ResNet18 for solving Task 1 as follows
+
+   a. Task1.ipynb(for scratch model called CRC-Enc with grid search),
+
+   b. Task1_LossFunction_Tuning.ipynb(CRC-Enc with NLLLoss tuning),
+
+   c. Task1_TransferLearning.ipynb(Model with Image  net weights called Imag-Enc) 
+
+   d. Task1_TransferLearning_NLLLoss.ipynb(Imag-Enc with NLLLoss as loss function tunning).Depending upon the need download the desired file(s).
+
+4. Load the file using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
    
-4. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
+5. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
 ```python
 #change input dimensions of the image fed to the CNN
 inputDimension=(256,256)
