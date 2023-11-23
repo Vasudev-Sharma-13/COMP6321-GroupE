@@ -85,25 +85,31 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 2. Update the following variables in each notebook:
 
    a. `path`: Path to the folder where you downloaded the Colorectal Cancer dataset.
+   
          ```python
          # give path of the input dataset folder
          path="/kaggle/input/dataset-10n/dataset-10N"
          ```
+
    b. `saveFilePath`: Path to save the hyperparameters (include the file name with extension).
+
          ```python 
          # give path to save the plot results(Example training vs epoch,loss vs steps,etc)
          saveFilePath="/kaggle/input/hyperparameters.pkl"
          ```
+
    c. `saveModelPath`: Path to save the trained ResNet18 model.
          ```python
          # give path to save the trained model
          saveModelPath="/kaggle/input/"
          ```
+
    d. `imageInputChange`: Path of the file in the last code cell of each file (Cell titled "Model FLOPS").
          ```python
          # give path to save the trained model
          imageInputChange="/kaggle/input/"
          ```
+
    Note: Provide different paths for `saveFilePath` in each notebook to get different hyperparameter files.
 
 4. Save the changes and run the notebooks.
