@@ -2,24 +2,7 @@
 
 <div align="justify">
 
-This study delves into the realm of transfer learning
-within deep learning (DL) to address the issue of prolonged
-training time. Two convolutional neural network models
-are trained on a medical-related dataset, one trained from
-scratch with randomly initialized weights and another with
-pre-trained ImageNet weights. Moreover, transfer learn-
-ing is utilized to extract features from diverse datasets by
-pre-trained DL models and then Machine Learning classi-
-fiers are employed for feature classification. The study ex-
-plores how transfer learning success depends on the simi-
-larity between the pre-trained and target datasets. Results
-demonstrate that employing ImageNet weights for training
-yields superior performance, with faster convergence. Fur-
-thermore, when comparing pre-trained models, one trained
-on a limited-size medical dataset and the other on a large,
-diverse image dataset, the latter excels at classifying new di-
-verse datasets, while the specialized pre-trained model ex-
-cels only on similar dataset to its pre-trained dataset
+This study delves into the realm of transfer learning within deep learning (DL) to address the issue of prolonged training time. Two convolutional neural network models are trained on a medical-related dataset, one trained from scratch with randomly initialized weights and another with pre-trained ImageNet weights. Moreover, transfer learning is utilized to extract features from diverse datasets by pre-trained DL models and then Machine Learning classifiers are employed for feature classification. The study explores how transfer learning success depends on the similarity between the pre-trained and target datasets. Results demonstrate that employing ImageNet weights for training yields superior performance, with faster convergence. Furthermore, when comparing pre-trained models, one trained on a limited-size medical dataset and the other on a large, diverse image dataset, the latter excels at classifying new diverse datasets, while the specialized pre-trained model excels only on similar dataset to its pre-trained dataset.
 
 This github repository is the Course Project Submission for Fall 2023 COMP 6321 – Machine Learning course. 
 In this project, we aim to investigate the impact of model selection and initialization methods on classification performance, evaluate feature extraction efficiency in pre-trained models, and assess their adaptability across different domains.This project has been implemented in a series of two tasks. In task 1, we train a CNN model from scratch using random weight initialization on the Colorectal Cancer (CRC) dataset for the task of image classification. Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 to extract features for Dataset 2 ( Prostate Cancer ) and Dataset 3 ( Animal Faces Dataset ). Finally, the extracted features are employed for classification using Support Vector Machine (SVM) and Random Forest. The process is repeated for a pre-trained PyTorch model to compare classification performance for features extracted from first model and the second one. 
@@ -148,13 +131,13 @@ For Task 2, update variables in each Jupyter Notebook as follows:
 In Task2_FeatureExtraction_KNN and Task2_FeatureExtraction_SVM:
 1. There are four files for the task as follows
 
-a. Task2_FeatureExtraction_D2_SVM.ipynb: Feature Extraction for Dataset2 using CRC_ENC followed by SVM predictions
+a. **[Task2_FeatureExtraction_D2_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_SVM.ipynb): Feature Extraction for Dataset2 using CRC_ENC followed by SVM predictions
 
-b. Task2_FeatureExtraction_D2_TL_SVM.ipynb: Feature Extraction for Dataset2 using Pre_IMg followed by SVM predictions
+b. **[Task2_FeatureExtraction_D2_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_TL_SVM.ipynb): Feature Extraction for Dataset2 using Pre_IMg followed by SVM predictions
 
-c. Task2_FeatureExtraction_D3_SVM.ipynb: Feature Extraction for Dataset3 using CRC_ENC followed by SVM predictions
+c. **[Task2_FeatureExtraction_D3_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_SVM.ipynb): Feature Extraction for Dataset3 using CRC_ENC followed by SVM predictions
 
-d. Task2_FeatureExtraction_D3_TL_SVM.ipynb: Feature Extraction for Dataset3 using Pre_IMg followed by SVM predictions
+d. **[Task2_FeatureExtraction_D3_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_TL_SVM.ipynb): Feature Extraction for Dataset3 using Pre_IMg followed by SVM predictions
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
@@ -164,33 +147,34 @@ d. Task2_FeatureExtraction_D3_TL_SVM.ipynb: Feature Extraction for Dataset3 usin
 
 a. path: Path to the folder where you downloaded the Dataset2 and Dataset3
 
-```
-# give the path of the input dataset folder
-path="/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
-```
+   ```
+   # give the path of the input dataset folder
+   path="/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
+   ```
 
 b. model1: Path of the model to be loaded, either the one trained from task1 or the PreTrained model from PyTorch Using ImgNET weights
-
-```
-# For CRC_ENC use the following model
-model1 = torch.load('/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth')
-```
-```
-# For Pre_Img use the following model
-model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
-```
+   
+   ```
+   # For CRC_ENC use the following model
+   model1 = torch.load('/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth')
+   ```
+   
+   ```
+   # For Pre_Img use the following model
+   model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
+   ```
 
 c. extracted_features.csv: Path to saved extracted features 
-
-```
-'/kaggle/working/extracted_features.csv'
-```
+   
+   ```
+   '/kaggle/working/extracted_features.csv'
+   ```
 
 d. final_extracted_features: Path to saved final extracted features along with labels
-
-```
-'/kaggle/working/final_features.csv'
-```
+   
+   ```
+   '/kaggle/working/final_features.csv'
+   ```
 
 Note: Files ending with _KNN.ipynb corresponds to KNN ML Techniques whereas files ending with _SVM.ipynb corresponds to SVM ML Techniques
 
