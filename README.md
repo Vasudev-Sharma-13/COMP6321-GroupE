@@ -1,6 +1,6 @@
 # Feature Extraction through CNN model-training and Transfer Learning for Classification using SVM, KNN and RF
 
-<p align="justify">
+<div align="justify">
 
 This study delves into the realm of transfer learning
 within deep learning (DL) to address the issue of prolonged
@@ -23,7 +23,7 @@ cels only on similar dataset to its pre-trained dataset
 
 This github repository is the Course Project Submission for Fall 2023 COMP 6321 – Machine Learning course. 
 In this project, we aim to investigate the impact of model selection and initialization methods on classification performance, evaluate feature extraction efficiency in pre-trained models, and assess their adaptability across different domains.This project has been implemented in a series of two tasks. In task 1, we train a CNN model from scratch using random weight initialization on the Colorectal Cancer (CRC) dataset for the task of image classification. Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 to extract features for Dataset 2 ( Prostate Cancer ) and Dataset 3 ( Animal Faces Dataset ). Finally, the extracted features are employed for classification using Support Vector Machine (SVM) and Random Forest. The process is repeated for a pre-trained PyTorch model to compare classification performance for features extracted from first model and the second one. 
-</p>
+</div>
 ## Table of Contents
 
 - [Overview](#overview)
