@@ -21,7 +21,7 @@ In this project, we aim to investigate the impact of model selection and initial
 - [License](#license)
 
 
-### Built With
+## Built With
 
 * [![Python][Python-img]][Python-url]
 * [![PyTorch][Pytorch-img]][Pytorch-url]
@@ -34,7 +34,7 @@ In this project, we aim to investigate the impact of model selection and initial
 * [![Pickle](https://img.shields.io/badge/Pickle-4.0-lightgrey)](https://docs.python.org/3/library/pickle.html)
 * [![THOP](https://img.shields.io/badge/THOP-0.0.31-blue)](https://pypi.org/project/thop/)
 
-## Installation
+# Installation
 Python version used for this project is 3.10.2 which can be downloaded and installed using the [installer](https://www.python.org/downloads/release/python-3102/)
 
 You can install the needed python libraries using `pip`. Make sure to install specific versions for compatibility:
