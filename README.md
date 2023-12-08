@@ -121,9 +121,8 @@ To run Task 1 Jupyter Notebook files, follow these steps:
    ```
 
 6. Run the notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and it's functioning.
-
-Note: The models generated from these jupyter files have been saved under the Models folder. For the scratch models refer [TASK1_No_Pretraining](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_No_Pretraining) and for the ImageNet model refer [TASK1_Pretrained](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_Pretrained). The 
-accuracy, loss, etc have been stored in [hyperparameters.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters.pkl) for scratch models and for pretrained models refer [hyperparameters_TransferLearning.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters_TransferLearning.pkl). To load the content in these files use the following code:
+<div align="justify">
+Note: The models generated from these jupyter files have been saved under the Models folder. For the scratch models refer [TASK1_No_Pretraining](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_No_Pretraining) and for the ImageNet model refer [TASK1_Pretrained](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_Pretrained). The accuracy, loss, etc have been stored in [hyperparameters.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters.pkl) for scratch models and for pretrained models refer [hyperparameters_TransferLearning.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters_TransferLearning.pkl). To load the content in these files use the following code:</div>
 
    ```python
       saveFilePath="C:/Users/vshar/Documents/hyperparameters.pkl"
