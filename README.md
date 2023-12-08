@@ -333,7 +333,7 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
    
 5. Run each cell in the notebook in a sequential order and see the results.
 
-## Test Dataset Creation code:
+# Test Dataset Creation code:
 
 1. There is only one file that needs to be run. The file is named - **[Test Dataset Creation.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Test%20Dataset%20Creation.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the parent folder of the github repository for this project.
 
