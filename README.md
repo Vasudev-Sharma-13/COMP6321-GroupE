@@ -271,7 +271,7 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
 
 3. Download the dataset from [Download Dataset Section](#dataset-download-links).
 
-4. Update the following variables in the jupyter notebook:
+4. Update the following variables in the jupyter notebook: ( These variable can be found in the 4th cell of the jupyter notebook. )
 
    a. `pcancer_path`: Path to the folder where you downloaded the Dataset2 - Prostate Cancer Dataset
    
@@ -280,7 +280,6 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       pcancer_path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
    
       ```
-      This variable can be found in the 4th cell of the jupyter notebook.
    
    b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
 
@@ -318,7 +317,16 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       output_path = "/kaggle/working"
    
       ```
-
+      The generate files in this notebook are -
+         a.) extracted_features_pm1.csv and final_features_pm1.csv
+         b.) extracted_features_pm2.csv and final_features_pm2.csv
+         c.) extracted_features_am1.csv and final_features_am1.csv
+         d.) extracted_features_am2.csv and final_features_am2.csv
+         e.) feature_maps_pm1.jpg
+         f.) feature_maps_pm2.jpg
+   
+5. Run each cell in the notebook in a sequential order and see the results.
+   
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
