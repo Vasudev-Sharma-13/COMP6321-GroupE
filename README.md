@@ -184,17 +184,16 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
 
 5. The generated files by the notebook are:
 
-   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`
-       update the path for `extracted_features.csv` to make `final_features.csv`
+   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`. Update the path for      `extracted_features.csv` to make `final_features.csv`
          
-         ```python
+         ```
          '/kaggle/working/extracted_features.csv'
          ```
       
-   b.  `final_features.csv`: Contains 512 extracted features along with the labels
+   b.  `final_features.csv`: Contains 512 extracted features along with the labels. 
         Update path for `final_features.csv` which will be used for SVM Predictions
          
-         ```python
+         ```
          '/kaggle/working/final_features.csv'
          ```
 
@@ -246,17 +245,17 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
       
 5. The generated files by the notebook are:
 
-   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`
-       update the path for `extracted_features.csv` to make `final_features.csv`
+   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`.
+       Update the path for `extracted_features.csv` to make `final_features.csv`
          
-         ```python
+         ```
          '/kaggle/working/extracted_features.csv'
          ```
       
-   b.  `final_features.csv`: Contains 512 extracted features along with the labels
-        Update path for `final_features.csv` which will be used for SVM Predictions
+   b.  `final_features.csv`: Contains 512 extracted features along with the labels.
+        Update path for `final_features.csv` which will be used for KNN Predictions
          
-         ```python
+         ```
          '/kaggle/working/final_features.csv'
          ```
    
