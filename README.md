@@ -348,7 +348,6 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       ```python
       # give the path of the folder containing all 3 datasets
       data_dir = '/kaggle/input/comp6321-project-datasets/'
-   
       ```
    
    b. `test_dir`: Output directory where you want to store the test dataset containg 100 images ( 11 images per class of each of the 3 datasets )
@@ -356,8 +355,8 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       ```python
       # give the path of the output folder
       test_dir = '/kaggle/Test100/'
-
-        ```
+      ```
+      
 5. Now that the test dataset folder is created, you can use the paths inside these test dataset in the Task 2 Jupyter files as path of your datasets to test their performance. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
 ## License
 
