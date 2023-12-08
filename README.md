@@ -186,16 +186,16 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
 
    a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`. Update the path for      `extracted_features.csv` to make `final_features.csv`
          
-         ```
-         '/kaggle/working/extracted_features.csv'
-         ```
+      ```
+      '/kaggle/working/extracted_features.csv'
+      ```
       
    b.  `final_features.csv`: Contains 512 extracted features along with the labels. 
         Update path for `final_features.csv` which will be used for SVM Predictions
          
-         ```
-         '/kaggle/working/final_features.csv'
-         ```
+      ```
+      '/kaggle/working/final_features.csv'
+      ```
 
 
 6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
@@ -248,16 +248,16 @@ There are four files for KNN for solving Task 2 using K-Nearest Neighbors as fol
    a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`.
        Update the path for `extracted_features.csv` to make `final_features.csv`
          
-         ```
-         '/kaggle/working/extracted_features.csv'
-         ```
+      ```
+      '/kaggle/working/extracted_features.csv'
+      ```
       
    b.  `final_features.csv`: Contains 512 extracted features along with the labels.
         Update path for `final_features.csv` which will be used for KNN Predictions
          
-         ```
-         '/kaggle/working/final_features.csv'
-         ```
+      ```
+      '/kaggle/working/final_features.csv'
+      ```
    
 6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
 
