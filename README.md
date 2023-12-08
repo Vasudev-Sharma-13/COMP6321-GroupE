@@ -125,7 +125,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 Note: The models generated from these jupyter files have been saved under the Models folder. For the scratch models refer [TASK1_No_Pretraining](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_No_Pretraining) and for the ImageNet model refer [TASK1_Pretrained](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_Pretrained). The 
 accuracy, loss, etc have been stored in [hyperparameters.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters.pkl) for scratch models and for pretrained models refer [hyperparameters_TransferLearning.pkl](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Models/hyperparameters_TransferLearning.pkl). To load the content in these files use the following code:
 
-      ```python
+   ```python
       saveFilePath="C:/Users/vshar/Documents/hyperparameters.pkl"
       with open(saveFilePath, 'rb') as f:
           data = pickle.load(f)
@@ -137,7 +137,7 @@ accuracy, loss, etc have been stored in [hyperparameters.pkl](https://github.com
           train_acc_valid_hyper_paramaters_step = data['train_acc_valid_hyper_paramaters_step']
           train_loss_hyper_paramaters_step = data['train_loss_hyper_paramaters_step']
           test_loss=data['test_loss']
-      ```
+   ```
 
 # Task 2 Instructions
 
