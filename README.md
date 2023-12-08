@@ -11,7 +11,12 @@ In this project, we aim to investigate the impact of model selection and initial
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Task 1 Instructions](#task-1-instructions)
+- [Task 2 Instructions](#task-2-instructions)
+   - [Support Vector Machines](#svm)
+   - [K Nearest Neighbor](#knn)
+   - [Random Forest](#random-forest)
+- [Test Dataset](test-dataset-creation-code)
 - [License](#license)
 
 
