@@ -71,9 +71,9 @@ To run the jupter notebook, open cmd and enter the following command -
 
 # Dataset Download Links
 
-- [Colorectal Cancer Classification](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
-- [Prostate Cancer Classification](https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
-- [Animal Faces Classification](https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- Colorectal Cancer Classification [[Project Dataset](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)|[Original Dataset](https://zenodo.org/record/1214456)]
+- Prostate Cancer Classification](https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
+- Animal Faces Classification(https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)
 
 # Task 1 Instructions
 
@@ -91,7 +91,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here] 
+3. Download the project dataset from [here](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp).The Original dataset from [here](https://zenodo.org/records/1214456) and the test dataset from [here](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Test100.zip) 
    
 4. Update the following variables in the jupyter notebook:
 
