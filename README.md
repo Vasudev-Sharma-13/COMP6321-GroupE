@@ -17,7 +17,7 @@ In this project, we aim to investigate the impact of model selection and initial
    - [Support Vector Machines](#svm)
    - [K Nearest Neighbor](#knn)
    - [Random Forest](#random-forest)
-- [Test Dataset](test-dataset-creation-code)
+- [Test Dataset](#test-dataset-creation-code)
 - [License](#license)
 
 
