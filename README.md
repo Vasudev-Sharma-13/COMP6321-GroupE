@@ -125,57 +125,57 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 # Task 2 Instructions
 
-For Task 2, update variables in each Jupyter Notebook as follows:
+To run Task 2 Jupyter Notebook files, follow these steps:
 
+There are four files for SVM for solving Task 2 using Support Vector Machines as follows
 
-In Task2_FeatureExtraction_KNN and Task2_FeatureExtraction_SVM:
 1. There are four files for the task as follows
 
-a. **[Task2_FeatureExtraction_D2_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_SVM.ipynb)**: Feature Extraction for Dataset2 using CRC_ENC followed by SVM predictions
-
-b. **[Task2_FeatureExtraction_D2_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_TL_SVM.ipynb)**: Feature Extraction for Dataset2 using Pre_IMg followed by SVM predictions
-
-c. **[Task2_FeatureExtraction_D3_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_SVM.ipynb)**: Feature Extraction for Dataset3 using CRC_ENC followed by SVM predictions
-
-d. **[Task2_FeatureExtraction_D3_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_TL_SVM.ipynb)**: Feature Extraction for Dataset3 using Pre_IMg followed by SVM predictions
+   a. **[Task2_FeatureExtraction_D2_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_SVM.ipynb)**: Feature Extraction for Dataset2 using CRC_ENC followed by SVM predictions
+   
+   b. **[Task2_FeatureExtraction_D2_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D2_TL_SVM.ipynb)**: Feature Extraction for Dataset2 using Pre_IMg followed by SVM predictions
+   
+   c. **[Task2_FeatureExtraction_D3_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_SVM.ipynb)**: Feature Extraction for Dataset3 using CRC_ENC followed by SVM predictions
+   
+   d. **[Task2_FeatureExtraction_D3_TL_SVM.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task2_FeatureExtraction_SVM/Task2_FeatureExtraction_D3_TL_SVM.ipynb)**: Feature Extraction for Dataset3 using Pre_IMg followed by SVM predictions
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from the Dataset download section.
+3. Download the dataset from [Dataset download section](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
 
 4. Update the following variables in the jupyter notebook:
 
-a. path: Path to the folder where you downloaded the Dataset2 and Dataset3
-
-   ```python
-   # give the path of the input dataset folder
-   path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
-
-   ```
-
-b. model1: Path of the model to be loaded, either the one trained from task1 or the PreTrained model from PyTorch Using ImgNET weights
+   a. path: Path to the folder where you downloaded the Dataset2 and Dataset3
    
-   ```python
-   # For CRC_ENC use the following model
-   model1 = torch.load('/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth')
-   ```
+      ```python
+      # give the path of the input dataset folder
+      path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
    
-   ```python
-   # For Pre_Img use the following model
-   model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
-   ```
-
-c. extracted_features.csv: Path to saved extracted features 
+      ```
    
-   ```python
-   '/kaggle/working/extracted_features.csv'
-   ```
-
-d. final_extracted_features: Path to saved final extracted features along with labels
+   b. model1: Path of the model to be loaded, either the one trained from task1 or the PreTrained model from PyTorch Using ImgNET weights
+      
+      ```python
+      # For CRC_ENC use the following model
+      model1 = torch.load('/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth')
+      ```
+      
+      ```python
+      # For Pre_Img use the following model
+      model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
+      ```
    
-   ```python
-   '/kaggle/working/final_features.csv'
-   ```
+   c. extracted_features.csv: Path to saved extracted features 
+      
+      ```python
+      '/kaggle/working/extracted_features.csv'
+      ```
+   
+   d. final_extracted_features: Path to saved final extracted features along with labels
+      
+      ```python
+      '/kaggle/working/final_features.csv'
+      ```
 
 Note: Files ending with _KNN.ipynb corresponds to KNN ML Techniques whereas files ending with _SVM.ipynb corresponds to SVM ML Techniques
 
