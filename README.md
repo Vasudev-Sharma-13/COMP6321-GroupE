@@ -205,7 +205,7 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
 
 To run Task 2 Jupyter Notebook files, follow these steps:
 
-There are four files for KNN for solving Task 2 using Support Vector Machines as follows
+There are four files for KNN for solving Task 2 using K-Nearest Neighbors as follows
 
 1. There are four files for the task as follows
 
