@@ -272,20 +272,52 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
 3. Download the dataset from [Download Dataset Section](#dataset-download-links).
 
 4. Update the following variables in the jupyter notebook:
-   a. `pcancer_path`: Path to the folder where you downloaded the Dataset2 and Dataset3
+
+   a. `pcancer_path`: Path to the folder where you downloaded the Dataset2 - Prostate Cancer Dataset
    
       ```python
       # give the path of the input dataset folder
-      path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
+      pcancer_path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
    
       ```
       This variable can be found in the 4th cell of the jupyter notebook.
+   
    b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
+
+      ```python
+      # give the path of the input dataset folder
+      ccancer_path = "/kaggle/input/comp6321-project-datasets/Dataset 1/Dataset 1/Colorectal Cancer "
+   
+      ```
 
    c. `afaces_path`: Points to the folder where the Animal Faces Dataset is downloaded.
 
-   d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
+      ```python
+      # give the path of the input dataset folder
+      afaces_path = "/kaggle/input/comp6321-project-datasets/Dataset 3/Dataset 3/Animal Faces"
+   
+      ```
 
+   d. `model1_path`: path where the model trained for Task 1 is stored
+   
+      ```python
+      model1_path = "/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth"
+   
+      ```
+
+   e. `plot_img_path`: path to one of the images stored in Prostate Cancer dataset
+   
+      ```python
+      plot_img_path = '/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer/tumor/tu.1001.jpg'
+   
+      ```
+
+   f. `output_path`: path to the folder where you want to store the various intermediate output files like the files which store the extracted features. ( Note - give the folder path and not the file path ) 
+   
+      ```python
+      output_path = "/kaggle/working"
+   
+      ```
 
 ## License
 
