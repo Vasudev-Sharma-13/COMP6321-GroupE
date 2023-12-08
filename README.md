@@ -73,7 +73,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Download Dataset Section](#Datasetdownloadsection).
+3. Download the dataset from [Download Dataset Section](#dataset-download-section).
    
 4. Update the following variables in the jupyter notebook:
 
@@ -144,7 +144,7 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Download Dataset Section](#Datasetdownloadsection).
+3. Download the dataset from [Download Dataset Section](#dataset-download-inks).
 
 4. Update the following variables in the jupyter notebook:
 
@@ -204,7 +204,7 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Download Dataset Section](#Datasetdownloadsection).
+3. Download the dataset from [Download Dataset Section](#dataset-download-section).
 
 4. Update the following variables in the jupyter notebook:
 
