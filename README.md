@@ -115,11 +115,11 @@ To run Task 1 Jupyter Notebook files, follow these steps:
       saveModelPath="C:/Users/vshar/Documents"
       ```
 
-   d. `imageInputChange`: Path of the file in the last code cell of each file (under section "Model FLOPS").
+   d. `imageInputChange`: Path of the image under section "Model FLOPS".
 
       ```python
-      # give path to save the trained model
-      imageInputChange="/kaggle/input/"
+      # give path to image for calculatintg the FLOPS
+      imageInputChange="C:/Users/vshar/Downloads/Dataset 1/Dataset 1/Colorectal Cancer/NORM/NORM-ADQNLKLS.tif"
       ```
 
 5. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
