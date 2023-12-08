@@ -184,13 +184,15 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
 
 5. The generated files by the notebook are:
 
-   `extracted_features.csv`: Path to saved extracted features 
+   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`
+       update the path for `extracted_features.csv` to make `final_features.csv`
          
          ```python
          '/kaggle/working/extracted_features.csv'
          ```
       
-   `final_extracted_features`: Path to saved final extracted features along with labels
+   b.  `final_features.csv`: Contains 512 extracted features along with the labels
+        Update path for `final_features.csv` which will be used for SVM Predictions
          
          ```python
          '/kaggle/working/final_features.csv'
@@ -226,7 +228,7 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
    
       ```python
       # give the path of the input dataset folder
-      path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
+      path = "/kaggle/input/comp6321-project-datasets/Dataset 3/Dataset 3/Animal Faces"
    
       ```
    
@@ -242,21 +244,26 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
       model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
       ```
       
-5.   
+5. The generated files by the notebook are:
 
-   `extracted_features.csv`: Path to saved extracted features 
+   a. `extracted_features.csv`: Extracted Features using the encoder are saved in the file `extracted_features.csv`
+       update the path for `extracted_features.csv` to make `final_features.csv`
          
          ```python
          '/kaggle/working/extracted_features.csv'
          ```
       
-   `final_extracted_features`: Path to saved final extracted features along with labels
+   b.  `final_features.csv`: Contains 512 extracted features along with the labels
+        Update path for `final_features.csv` which will be used for SVM Predictions
          
          ```python
          '/kaggle/working/final_features.csv'
          ```
+   
+6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
 
-5. For Random Forest Implementation With Pytorch Model Update.ipynb:
+
+## Random Forest: For Random Forest Implementation With Pytorch Model Update.ipynb:
 
    a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
 
