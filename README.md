@@ -137,36 +137,75 @@ To run Task 1 Jupyter Notebook files, follow these steps:
    criterion=nn.CrossEntropyLoss()
    ```
 
-6. Run notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and functioning.
+6. Run the notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and it's functioning.
 
 
 # Task 2 Instructions
 
 For Task 2, update variables in each Jupyter Notebook as follows:
 
-1. In `Task2_FeatureExtraction_KNN` and `Task2_FeatureExtraction_SVM`:
 
-   a. `path`: Point to the folder where you downloaded the Prostate Cancer Dataset in the 3rd code cell.
+In Task2_FeatureExtraction_KNN and Task2_FeatureExtraction_SVM:
+1. There are four files for the task as follows
 
-   b. `path1`: Point to the folder where you downloaded the Animal Face Dataset in the 17th code cell.
+a. Task2_FeatureExtraction_D2_SVM.ipynb: Feature Extraction for Dataset2 using CRC_ENC followed by SVM predictions
 
-   c. `imageInput`: Point to an image file inside the Colorectal Cancer dataset.
+b. Task2_FeatureExtraction_D2_TL_SVM.ipynb: Feature Extraction for Dataset2 using Pre_IMg followed by SVM predictions
 
-3. In other Task 2 files:
+c. Task2_FeatureExtraction_D3_SVM.ipynb: Feature Extraction for Dataset3 using CRC_ENC followed by SVM predictions
+
+d. Task2_FeatureExtraction_D3_TL_SVM.ipynb: Feature Extraction for Dataset3 using Pre_IMg followed by SVM predictions
+
+2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
+
+3. Download the dataset from the Dataset download section.
+
+4. Update the following variables in the jupyter notebook:
+
+a. path: Path to the folder where you downloaded the Dataset2 and Dataset3
+
+```
+# give the path of the input dataset folder
+path="/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
+```
+
+b. model1: Path of the model to be loaded, either the one trained from task1 or the PreTrained model from PyTorch Using ImgNET weights
+
+```
+# For CRC_ENC use the following model
+model1 = torch.load('/kaggle/input/models/COMP6321_ResNet_Task1_CancerDataset_Model_Final_HyperParamaterTuning8.pth')
+```
+```
+# For Pre_Img use the following model
+model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
+```
+
+c. extracted_features.csv: Path to saved extracted features 
+
+```
+'/kaggle/working/extracted_features.csv'
+```
+
+d. final_extracted_features: Path to saved final extracted features along with labels
+
+```
+'/kaggle/working/final_features.csv'
+```
+
+Note: Files ending with _KNN.ipynb corresponds to KNN ML Techniques whereas files ending with _SVM.ipynb corresponds to SVM ML Techniques
+
+5. For Random Forest Implementation With Pytorch Model Update.ipynb:
 
    a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
 
-   b. `ccancer_path`: Points to the folder where Colorectal Cancer Dataset is downloaded.
+   b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
 
-   c. `afaces_path`: Points to the folder where Animal Faces Dataset is downloaded.
+   c. `afaces_path`: Points to the folder where the Animal Faces Dataset is downloaded.
 
    d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
 
-5. Inside Task 2 files, change the path for the variable `model1` to point to the path where you saved the models trained in Task 1.
 
-6. Save the changes and run the notebooks.
-
-Feel free to reach out if you encounter any issues or have questions!
+6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
 
 
 ## License
