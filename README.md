@@ -125,7 +125,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 # Task 2 Instructions
 
-## KNN
+## SVM
 
 To run Task 2 Jupyter Notebook files, follow these steps:
 
@@ -166,30 +166,20 @@ There are four files for SVM for solving Task 2 using Support Vector Machines as
       # For Pre_Img use the following model
       model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
       ```
-5.   
-`extracted_features.csv`: Path to saved extracted features 
+
+5. The generated files by the notebook are:
+
+   `extracted_features.csv`: Path to saved extracted features 
+         
+         ```python
+         '/kaggle/working/extracted_features.csv'
+         ```
       
-      ```python
-      '/kaggle/working/extracted_features.csv'
-      ```
-   
-`final_extracted_features`: Path to saved final extracted features along with labels
-      
-      ```python
-      '/kaggle/working/final_features.csv'
-      ```
-
-Note: Files ending with _KNN.ipynb corresponds to KNN ML Techniques whereas files ending with _SVM.ipynb corresponds to SVM ML Techniques
-
-5. For Random Forest Implementation With Pytorch Model Update.ipynb:
-
-   a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
-
-   b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
-
-   c. `afaces_path`: Points to the folder where the Animal Faces Dataset is downloaded.
-
-   d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
+   `final_extracted_features`: Path to saved final extracted features along with labels
+         
+         ```python
+         '/kaggle/working/final_features.csv'
+         ```
 
 
 6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
@@ -236,18 +226,31 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
       # For Pre_Img use the following model
       model1 = model1 = models.resnet18(weights="IMAGENET1K_V1").to(device)
       ```
+      
 5.   
-`extracted_features.csv`: Path to saved extracted features 
+
+   `extracted_features.csv`: Path to saved extracted features 
+         
+         ```python
+         '/kaggle/working/extracted_features.csv'
+         ```
       
-      ```python
-      '/kaggle/working/extracted_features.csv'
-      ```
-   
-`final_extracted_features`: Path to saved final extracted features along with labels
-      
-      ```python
-      '/kaggle/working/final_features.csv'
-      ```
+   `final_extracted_features`: Path to saved final extracted features along with labels
+         
+         ```python
+         '/kaggle/working/final_features.csv'
+         ```
+
+5. For Random Forest Implementation With Pytorch Model Update.ipynb:
+
+   a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
+
+   b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
+
+   c. `afaces_path`: Points to the folder where the Animal Faces Dataset is downloaded.
+
+   d. `imageInput`: Points to an image in the Colorectal Cancer dataset.
+
 
 ## License
 
