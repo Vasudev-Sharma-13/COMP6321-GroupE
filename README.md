@@ -262,7 +262,7 @@ There are four files for KNN for solving Task 2 using K-Nearest Neighbors as fol
 6. Run the notebook, and see the results. The subheadings and comments in the respective notebooks explain each cell and its functioning.
 
 
-## Random Forest: For Random Forest Implementation With Pytorch Model Update.ipynb:
+## Random Forest: 
 To run the Task 2 files pertaining to the training of Random Forest on the features extracted from the models trained in Task 1 and using Transfer Learning, follow these steps:
 
 1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
@@ -326,7 +326,33 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
          f.) feature_maps_pm2.jpg
    
 5. Run each cell in the notebook in a sequential order and see the results.
+
+## Test Dataset Creation code:
+
+1. There is only one file that needs to be run. The file is named - **[Test Dataset Creation.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Test%20Dataset%20Creation.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the parent folder of the github repository for this project.
+
+2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
+
+3. Download the datasets from [Download Dataset Section](#dataset-download-links). Please store all 3 datasets inside one folder ( with sub folders for each dataset ).
+
+4. Update the following variables in the jupyter notebook: ( These variable can be found in the 4th cell of the jupyter notebook. )
+
+   a. `data_dir`: Path to the folder where you downloaded all the 3 datasets
    
+      ```python
+      # give the path of the folder containing all 3 datasets
+      data_dir = '/kaggle/input/comp6321-project-datasets/'
+   
+      ```
+   
+   b. `test_dir`: Output directory where you want to store the test dataset containg 100 images ( 11 images per class of each of the 3 datasets )
+
+      ```python
+      # give the path of the output folder
+      test_dir = '/kaggle/Test100/'
+
+        ```
+5. Now that the test dataset folder is created, you can use the paths inside these test dataset in the Task 2 Jupyter files as path of your datasets to test their performance. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
