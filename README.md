@@ -78,7 +78,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Dataset download section] (#'Dataset Download Links').
+3. Download the dataset from [Dataset download section](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
    
 4. Update the following variables in the jupyter notebook:
 
