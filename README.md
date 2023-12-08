@@ -259,7 +259,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Dataset Download Links](#dataset-download-links)
+
 [Python-img]: https://img.shields.io/badge/Python-3.6%2B-blue
 [Python-url]: https://www.python.org/
 [Pytorch-img]: https://img.shields.io/badge/PyTorch-1.0%2B-orange
