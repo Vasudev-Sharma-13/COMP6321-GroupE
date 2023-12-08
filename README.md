@@ -11,6 +11,7 @@ In this project, we aim to investigate the impact of model selection and initial
 ## Table of Contents
 
 - [Installation](#installation)
+- [Dataset](#dataset-download-links)
 - [Task 1 Instructions](#task-1-instructions)
 - [Task 2 Instructions](#task-2-instructions)
    - [Support Vector Machines](#svm)
