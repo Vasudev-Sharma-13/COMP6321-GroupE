@@ -263,9 +263,23 @@ There are four files for KNN for solving Task 2 using K-Nearest Neighbors as fol
 
 
 ## Random Forest: For Random Forest Implementation With Pytorch Model Update.ipynb:
+To run the Task 2 files pertaining to the training of Random Forest on the features extracted from the models trained in Task 1 and using Transfer Learning, follow these steps:
 
-   a. `pcancer_path`: Points to the folder where Prostate Cancer Dataset is downloaded.
+1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
 
+2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
+
+3. Download the dataset from [Download Dataset Section](#dataset-download-links).
+
+4. Update the following variables in the jupyter notebook:
+   a. `pcancer_path`: Path to the folder where you downloaded the Dataset2 and Dataset3
+   
+      ```python
+      # give the path of the input dataset folder
+      path = "/kaggle/input/comp6321-project-datasets/Dataset 2/Dataset 2/Prostate Cancer"
+   
+      ```
+      This variable can be found in the 4th cell of the jupyter notebook.
    b. `ccancer_path`: Points to the folder where the Colorectal Cancer Dataset is downloaded.
 
    c. `afaces_path`: Points to the folder where the Animal Faces Dataset is downloaded.
