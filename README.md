@@ -73,7 +73,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Dataset download section](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
+3. Download the dataset from [Download Dataset Section](#Datasetdownloadsection) (https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
    
 4. Update the following variables in the jupyter notebook:
 
@@ -122,6 +122,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
 6. Run the notebook, and see the results. The subheadings and comments in the respective ResNet18 notebooks explain each cell and it's functioning.
 
+Note: The models generated from these jupyter files have been saved unser the Models folder. For the scratch models refer [TASK1_No_Pretraining](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_No_Pretraining) and for the ImageNet model refer [TASK1_Pretrained](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Models/TASK1_Pretrained). The 
 
 # Task 2 Instructions
 
@@ -203,7 +204,7 @@ There are four files for KNN for solving Task 2 using Support Vector Machines as
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
-3. Download the dataset from [Dataset download section](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
+3. Download the dataset from [#Dataset download section](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/README.md#dataset-download-links).
 
 4. Update the following variables in the jupyter notebook:
 
