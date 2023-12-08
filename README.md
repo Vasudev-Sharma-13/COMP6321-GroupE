@@ -27,14 +27,12 @@ In this project, we aim to investigate the impact of model selection and initial
 
 ## Table of Contents
 
-- [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
 
 ### Built With
-
 
 * [![Python][Python-img]][Python-url]
 * [![PyTorch][Pytorch-img]][Pytorch-url]
