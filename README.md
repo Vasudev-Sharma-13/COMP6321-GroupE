@@ -1,12 +1,27 @@
 # Feature Extraction through CNN model-training and Transfer Learning for Classification using SVM, KNN and RF
 
+
+This study delves into the realm of transfer learning
+within deep learning (DL) to address the issue of prolonged
+training time. Two convolutional neural network models
+are trained on a medical-related dataset, one trained from
+scratch with randomly initialized weights and another with
+pre-trained ImageNet weights. Moreover, transfer learn-
+ing is utilized to extract features from diverse datasets by
+pre-trained DL models and then Machine Learning classi-
+fiers are employed for feature classification. The study ex-
+plores how transfer learning success depends on the simi-
+larity between the pre-trained and target datasets. Results
+demonstrate that employing ImageNet weights for training
+yields superior performance, with faster convergence. Fur-
+thermore, when comparing pre-trained models, one trained
+on a limited-size medical dataset and the other on a large,
+diverse image dataset, the latter excels at classifying new di-
+verse datasets, while the specialized pre-trained model ex-
+cels only on similar dataset to its pre-trained dataset
+
 This github repository is the Course Project Submission for Fall 2023 COMP 6321 – Machine Learning course. 
-
-In this project, we aim to investigate the impact of model selection and initialization methods on classification performance, evaluate feature extraction efficiency in pre-trained models, and assess their adaptability across different domains.
-
-This project has been implemented in a series of two tasks. In task 1, we train a CNN model from scratch using random weight initialization on the Colorectal Cancer (CRC) dataset for the task of image classification. 
-
-Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 to extract features for Dataset 2 ( Prostate Cancer ) and Dataset 3 ( Animal Faces Dataset ). Finally, the extracted features are employed for classification using Support Vector Machine (SVM) and Random Forest. The process is repeated for a pre-trained PyTorch model to compare classification performance for features extracted from first model and the second one. 
+In this project, we aim to investigate the impact of model selection and initialization methods on classification performance, evaluate feature extraction efficiency in pre-trained models, and assess their adaptability across different domains.This project has been implemented in a series of two tasks. In task 1, we train a CNN model from scratch using random weight initialization on the Colorectal Cancer (CRC) dataset for the task of image classification. Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 to extract features for Dataset 2 ( Prostate Cancer ) and Dataset 3 ( Animal Faces Dataset ). Finally, the extracted features are employed for classification using Support Vector Machine (SVM) and Random Forest. The process is repeated for a pre-trained PyTorch model to compare classification performance for features extracted from first model and the second one. 
 
 ## Table of Contents
 
@@ -29,9 +44,6 @@ Task 2 builds on Task 1 using the encoder from the CNN model trained in Task 1 t
 * [![PIL](https://img.shields.io/badge/PIL-6.0-orange)](https://pillow.readthedocs.io/en/stable/installation.html)
 * [![Pickle](https://img.shields.io/badge/Pickle-4.0-lightgrey)](https://docs.python.org/3/library/pickle.html)
 * [![THOP](https://img.shields.io/badge/THOP-0.0.31-blue)](https://pypi.org/project/thop/)
-
-
-## Overview
 
 ## Installation
 Python version used for this project is 3.10.2 which can be downloaded and installed using the [installer](https://www.python.org/downloads/release/python-3102/)
