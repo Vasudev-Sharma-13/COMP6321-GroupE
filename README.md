@@ -62,6 +62,7 @@ To run the jupter notebook, open cmd and enter the following command -
 - Colorectal Cancer Classification [[Project Dataset](https://onedrive.live.com/?authkey=%21ADmb8ZdEzwFMZoo&id=FB338EA7CF297329%21405133&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)|[Original Dataset](https://zenodo.org/record/1214456)]
 - Prostate Cancer Classification [[Project Dataset](https://onedrive.live.com/?authkey=%21APy4wecXgMnQ7Kw&id=FB338EA7CF297329%21405132&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)|[Original Dataset](https://zenodo.org/records/4789576)]
 - Animal Faces Classification[[Project Dataset](https://onedrive.live.com/?authkey=%21AKqEWb1GDjWPbG0&id=FB338EA7CF297329%21405131&cid=FB338EA7CF297329&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp)|[Original Dataset](https://www.kaggle.com/datasets/andrewmvd/animal-faces)]
+- [Test Dataset](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Test100.zip)
 
 # Task 1 Instructions
 
