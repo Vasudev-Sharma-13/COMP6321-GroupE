@@ -370,7 +370,8 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       ```
       
  The rest of the steps are the same as mentioned in Task1 and Task2 sections, after that you will get results of the pretrained model on the test dataset. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
- 
+
+Note: There is [legacy code](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/tree/main/Task2/Legacy_Code) for Task 2 which has been depreicated since it does not yield the optimal solution.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
