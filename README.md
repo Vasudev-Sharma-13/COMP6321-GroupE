@@ -271,7 +271,7 @@ There are four files for KNN for solving Task 2 using K-Nearest Neighbors as fol
 ## Random Forest: 
 To run the Task 2 files pertaining to the training of Random Forest on the features extracted from the models trained in Task 1 and using Transfer Learning, follow these steps:
 
-1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
+1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest%20v1.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
