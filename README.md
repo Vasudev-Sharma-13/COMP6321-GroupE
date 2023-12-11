@@ -71,7 +71,7 @@ To run Task 1 Jupyter Notebook files, follow these steps:
 
    a. **[Task1.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task1/Task1.ipynb)**: Implementation of the scratch model called CRC-Enc with grid search.
 
-   b. **[Task1_LossFunction_Tuning.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task1/Task1_LossFunction_Tuning.ipynb)**: CRC-Enc with NLLLoss tuning for tuning purposes.
+   b. **[Task1_LossFunction_Tuning.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task1/Task1_LossFunction_Tuning.ipynb)**: CRC-Enc with NLLLoss function for tuning purposes.
 
    c. **[Task1_TransferLearning.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task1/Task1_TransferLearning.ipynb)**: Model using ImageNet weights, referred to as Imag-Enc.
 
