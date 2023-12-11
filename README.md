@@ -368,7 +368,7 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       path="C:/Users/vshar/Downloads/Dataset 1/Dataset 1/Colorectal Cancer"
       ```
       
- The rest of the steps are the same as mentioned in Task1 and Task2, after that you will get results of the pretrained model on the test dataset. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
+ The rest of the steps are the same as mentioned in Task1 and Task2 sections, after that you will get results of the pretrained model on the test dataset. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
  
 ## License
 
