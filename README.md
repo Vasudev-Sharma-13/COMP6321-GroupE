@@ -271,7 +271,7 @@ There are four files for KNN for solving Task 2 using K-Nearest Neighbors as fol
 ## Random Forest: 
 To run the Task 2 files pertaining to the training of Random Forest on the features extracted from the models trained in Task 1 and using Transfer Learning, follow these steps:
 
-1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest%20v1.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
+1. There is only one file that needs to be run. The file is named - **[Task 2 Random Forest v1.ipynb](https://github.com/Vasudev-Sharma-13/COMP6321-GroupE/blob/main/Task2/Task%202%20Random%20Forest%20v1.ipynb)** - This file can be accessed thorugh the given https link or it can be located inside the Task 2 folder of the github repository for this project.
 
 2. Load the desired file(s) using a editor(Jupyter Notebook,Google Colab, Kaggle Notebooks, etc.) compatible with .ipynb extension.
 
@@ -357,7 +357,19 @@ To run the Task 2 files pertaining to the training of Random Forest on the featu
       test_dir = '/kaggle/Test100/'
       ```
       
-5. Now that the test dataset folder is created, you can use the paths inside these test dataset in the Task 2 Jupyter files as path of your datasets to test their performance. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
+5. Now that the test dataset folder is created, you can use the paths inside these test dataset in the Task1 and Task 2 Jupyter files as path of your datasets to test the performance of pretrained models. Follow the changes below:
+
+      ```python
+      #Load pretrained models from Task1 and TASK2
+      PATH=saveModelPath="C:/Users/vshar/Documents"
+      model = torch.load(PATH)
+      model.eval()
+      #give path of the test dataset folder
+      path="C:/Users/vshar/Downloads/Dataset 1/Dataset 1/Colorectal Cancer"
+      ```
+      
+ The rest of the steps are the same as mentioned in Task1 and Task2, after that you will get results of the pretrained model on the test dataset. Alternatively, you can simply download the provided dataset zip folder provided in the project submission directly after decompressing it.
+ 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
